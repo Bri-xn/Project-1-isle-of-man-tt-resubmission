@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h2 {
+    font-size: xx-large;
+}
+
 .header-back {
     position: absolute;
     top: 0;

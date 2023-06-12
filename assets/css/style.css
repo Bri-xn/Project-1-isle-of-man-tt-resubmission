@@ -4,8 +4,9 @@
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: xxx-large;
 }
+
 
 .header-back {
     position: absolute;
@@ -57,9 +58,176 @@ h2 {
 }
 
 li {
-    font-size: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+li.MD {
+    float: left;
 }
 
 #track {
     font-size: xx-large;
+}
+
+.tt-container {
+    width: 100vw;
+    height: 92vh;
+    background-color: black;
+}
+
+.image-mick {
+
+
+    float: right;
+    margin: 4px;
+    width: 250px;
+    height: 250px;
+
+
+
+
+}
+
+.tt-h2 {
+    float: right;
+    color: white;
+    text-decoration: underline;
+    margin: 2rem 5rem 0 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.tt-list {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    list-style: none;
+}
+
+.tt-list li {
+    font-size: 35px;
+
+}
+
+.track-cont {
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+
+}
+
+.track-map {
+    width: 70%;
+    float: right;
+}
+
+.track-h1 {
+    font-size: 50px;
+    margin-left: 10rem;
+    padding: 20px;
+}
+
+.track-text {
+    color: black;
+    text-align: left;
+
+
+}
+
+.track-text li {
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+
+img {
+
+
+    float: left;
+    max-width: 200px;
+    max-height: 300px;
+    width: 130px;
+    height: 70px;
+}
+
+img.pic {
+    float: left;
+    margin: 4px;
+    width: 250%;
+    height: 250%;
+}
+
+
+footer {
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: gray;
+
+}
+
+
+ul.john {
+    padding: 30px;
+    float: right;
+
+}
+
+section {
+    padding: 30px;
+}
+
+p.md {
+    text-align: justify;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.dd {
+
+
+    font-size: 32px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+body {
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-decoration: underline;
+
+}
+
+img.ph {
+    float: left;
+    margin: 4px;
+    width: 350%;
+    height: 350%;
+
+}
+
+h2.MD {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2.other {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }

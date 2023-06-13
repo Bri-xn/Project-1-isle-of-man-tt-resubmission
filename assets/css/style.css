@@ -72,8 +72,14 @@ li.MD {
 
 .tt-container {
     width: 100vw;
-    height: 92vh;
+    height: 90vh;
     background-color: black;
+}
+
+.tt-container2 {
+    width: 100vw;
+    height: 92vh;
+    background-image: url(Isle of man track map.jpg);
 }
 
 .image-mick {
@@ -90,23 +96,26 @@ li.MD {
 }
 
 .tt-h2 {
-    float: right;
-    color: white;
+
+    color: black;
     text-decoration: underline;
     margin: 2rem 5rem 0 0;
     padding-top: 0;
-    text-align: center;
+    text-align: left;
+    font-size: 50px;
 }
 
 .tt-list {
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: justify;
     padding-top: 100px;
-    list-style: none;
+    list-style: disc;
+
 }
 
 .tt-list li {
-    font-size: 35px;
+    font-size: 25px;
+    padding: 10px;
 
 }
 
@@ -126,11 +135,14 @@ li.MD {
     font-size: 50px;
     margin-left: 10rem;
     padding: 20px;
+    color: black;
+    text-align: right;
 }
 
 .track-text {
     color: black;
     text-align: left;
+    padding-left: 20%;
 
 
 }
@@ -140,6 +152,10 @@ li.MD {
     padding: 10px;
 }
 
+img.track {
+    float: left;
+    scale: 300%;
+}
 
 
 
@@ -166,6 +182,8 @@ footer {
     justify-content: center;
     list-style-type: none;
     background-color: gray;
+    padding: 20px;
+    color: #555;
 
 }
 
@@ -208,6 +226,7 @@ h1 {
     font-size: 60px;
     text-decoration: underline;
 
+
 }
 
 img.ph {
@@ -231,3 +250,45 @@ h2.other {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
+
+form.section {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+label.name {
+    font-weight: bold;
+}
+
+.social-list {
+
+    font-size: large;
+    align-items: baseline;
+}
+
+.form {
+    color: white;
+    font-size: large;
+    text-align: right;
+}
+
+.footer {
+
+    position: fixed;
+    scale: 150%;
+
+
+
+}
+
+
+
+

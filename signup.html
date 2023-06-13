@@ -13,9 +13,11 @@
 
     <!-- Stylesheet -->
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/5fb20e3c31.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body
+    style="background-image:url(images/iomtt-2022-best-moments-08\ -\ Copy.jpg); background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
     <header>
         <div class="header-back"></div>
         <div class="box-cont">
@@ -26,35 +28,78 @@
         </nav>
     </header>
     <section class="form-section">
-        <form method="POST" action=class="signup-form">
-            <h2>Let's get you signed up!</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required>
+        <div class="email container">
+            <form method="POST" class="form">
+                <h2>Subscribe to Our Newsletter!</h2>
 
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required>
+                <div>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
+                    <label class="name" for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <br>
+                <div>
+
+                    <label class="name" for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+                <br>
+                <div>
+
+                    <label class="name" for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" required>
+                </div>
 
 
 
-            <input class="join-button" type="submit" value="Let's Run!">
-        </form>
+
+                <input class="join-button" type="submit" value="Let's go">
+
+            </form>
+        </div>
 
 
     </section>
-    <footer>
-        <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-    </footer>
+    <section class="signup-pic">
 
-    <!-- Font awesome script -->
-    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <div>
+            <p style="font-weight:bold;">Check us out on our Socials!</p>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"
+                            style="color: #1667f3;"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"
+                            style="color: #00bfff;"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"
+                            style="color: #c20000;"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-xl"
+                            style="color: #7300ff;"></i></a></li>
+
+            </ul>
+
+
+
+        </div>
+    </section>>
+
+
+
+
+
+
+
+
 </body>
 
 </html>

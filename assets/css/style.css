@@ -30,6 +30,7 @@ h2 {
 .logo {
     color: white;
     font-size: 80px;
+
 }
 
 .box-cont {
@@ -76,23 +77,20 @@ li.MD {
     background-color: black;
 }
 
-.tt-container2 {
-    width: 100vw;
-    height: 92vh;
-    background-image: url(Isle of man track map.jpg);
+.image-mick {
+    float: right;
+    width: auto;
+    height: auto;
+    padding-left: 15px;
 }
 
-.image-mick {
-
-
+.image-mick1 {
     float: right;
-    margin: 4px;
-    width: 250px;
-    height: 250px;
-
-
-
-
+    position: relative;
+    margin-right: 120px;
+    width: max-content;
+    height: max-content;
+    scale: 250%;
 }
 
 .tt-h2 {
@@ -102,7 +100,7 @@ li.MD {
     margin: 2rem 5rem 0 0;
     padding-top: 0;
     text-align: left;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .tt-list {
@@ -126,13 +124,10 @@ li.MD {
 
 }
 
-.track-map {
-    width: 70%;
-    float: right;
-}
+
 
 .track-h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 10rem;
     padding: 20px;
     color: black;
@@ -178,13 +173,52 @@ img.pic {
 
 
 footer {
-    text-align: center;
-    justify-content: center;
-    list-style-type: none;
-    background-color: gray;
-    padding: 20px;
-    color: #555;
+    position: relative;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 60px;
+    color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+}
 
+.footernl {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 60px;
+    color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+
+}
+
+
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.content {
+    padding-bottom: 60px;
+}
+
+
+.footerhome {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
 }
 
 
@@ -266,6 +300,7 @@ form.section {
 
 label.name {
     font-weight: bold;
+    padding-right: 10px;
 }
 
 .social-list {
@@ -276,19 +311,96 @@ label.name {
 
 .form {
     color: white;
-    font-size: large;
+    font-size: xx-large;
     text-align: right;
 }
 
-.footer {
+.footersocial {
 
     position: fixed;
     scale: 150%;
-
-
-
 }
 
+@media screen and (max-width:700px) {
 
+    .logo {
+        text-align: center;
+        font-size: 1.6rem;
+    }
 
+    .box-cont {
+        text-overflow: clip;
+    }
 
+    h1 {
+        position: relative;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        position: relative;
+        font-size: 2.5rem;
+    }
+
+    .other {
+        font-size: 2.3rem;
+    }
+
+    .tt-h2 {
+        position: relative;
+        font-size: 1.7rem;
+        text-align: left;
+        margin: 0%;
+    }
+
+    .tt-list {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .track-text {
+        text-align: left;
+        padding: 0%;
+    }
+
+    .track-map .track-h1 {
+        position: relative;
+        font-size: 1.7rem;
+        text-align: left;
+        margin-left: 0%;
+    }
+
+    .image-mick1 {
+        display: none;
+    }
+
+    .MD {
+        position: relative;
+        font-size: 2.5rem;
+    }
+
+    .track-map {
+        display: none;
+    }
+
+    iframe {
+        scale: 70%;
+        align-self: LEFT;
+        margin-right: auto;
+        margin-left: 0px;
+    }
+
+    .box-cont {
+        text-overflow: clip;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .logo-cont {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}

@@ -61,7 +61,7 @@ footer includes social media links and opens in a new tab for easy accessibility
 <ul>
 <li>
 Pictures were gathered from google images.</li>
-<li>The description of the racers were taken from chatGPT .</li>
+<li>The description of the racers and track were taken from chatGPT and Google .</li>
 <li>The sign up form i takenfrom love running ci templete.
 </li>
 <li>

@@ -11,14 +11,14 @@ Here you can find a breif decription on what is the isle of man TT.
 (https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/title%20and%20description.png)
 <h2>The Track</h2>
 <li>Here you can see a map of the track and a brief description of the track. </li>
-(https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/track%20.png)
+[readme-media](https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/track%20.png)
 
 <section>
 <h2> The Racers</h2>
 <ul>
 <li>here you can find the top racers and a brief summary on each</li>
 </ul>
-(https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/racers.png)
+[readme-media](https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/racers.png)
 </section>
 
 <section>
@@ -26,7 +26,7 @@ Here you can find a breif decription on what is the isle of man TT.
 <ul>
 <li>here you can a simple signup page with required fields</li>
 </ul>
-(https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/newsletter.png)
+[readme-media](https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/newsletter.png)
 </section>
 
 
@@ -35,7 +35,8 @@ Here you can find a breif decription on what is the isle of man TT.
 <ul><li>
 footer includes social media links and opens in a new tab for easy accessibility</li>
 </ul>
-(https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/socials.png)
+
+[readme-media](https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/socials.png)
 </section>
 <section>
 <h2>testing</h2>

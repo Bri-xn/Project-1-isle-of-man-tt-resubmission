@@ -8,10 +8,10 @@ here they can find the history about the event,the track,the riders and a signup
 Here you can find a breif decription on what is the isle of man TT. 
 </li>  
 </ul>
-[readme-media](readme-media/title navigation.png)
+[nav-title](readme-media/title navigation.png)
 <h2>The Track</h2>
 <li>Here you can see a map of the track and a brief description of the track. </li>
-[readme-media](readme-media/track.png)
+[track](readme-media/track.png)
 
 <section>
 <h2> The Racers</h2>
@@ -19,7 +19,7 @@ Here you can find a breif decription on what is the isle of man TT.
 <li>here you can find the top racers and a brief summary on each</li>
 </ul>
 </section>
-[readme-media](readme-media/racers.png)
+[racers](readme-media/racers.png)
 
 <section>
 <h2>newsletter</h2>

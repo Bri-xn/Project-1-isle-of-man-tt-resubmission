@@ -1,17 +1,17 @@
 <h1>Isle Of Man TT</h1>
 <p>isle of man TT is a site towards bike enthusiast and people new and wanting to know more about the motorsport.
 here they can find the history about the event,the track,the riders and a signup page for updates on the isle of man races</p>
-(https://github.com/Bri-xn/Project-1-isle-of-man-tt/blob/main/title%20navagation.png)
+[nav-screenshot](navagation.png)
 
 <h2>Home Page </h2>
 <ul><li>
 Here you can find a breif decription on what is the isle of man TT. 
 </li>  
 </ul>
-[readme-media](title navigation.png)
+[readme-media](readme-media/title navigation.png)
 <h2>The Track</h2>
 <li>Here you can see a map of the track and a brief description of the track. </li>
-[readme-media](track.png)
+[readme-media](readme-media/track.png)
 
 <section>
 <h2> The Racers</h2>
@@ -19,7 +19,7 @@ Here you can find a breif decription on what is the isle of man TT.
 <li>here you can find the top racers and a brief summary on each</li>
 </ul>
 </section>
-[readme-media](racers.png)
+[readme-media](readme-media/racers.png)
 
 <section>
 <h2>newsletter</h2>
@@ -27,7 +27,7 @@ Here you can find a breif decription on what is the isle of man TT.
 <li>here you can a simple signup page with required fields</li>
 </ul>
 </section>
-[readme-media](newsletter.png)
+[newsletter-screenshot](readme-me/newsletter.png)
 
 
 <section>
@@ -36,7 +36,7 @@ Here you can find a breif decription on what is the isle of man TT.
 footer includes social media links and opens in a new tab for easy accessibility</li>
 </ul>
 </section>
-[readme-media](socials.png)
+[socials screenshot](readme-mediasocials.png)
 <section>
 <h2>testing</h2>
 <ul>

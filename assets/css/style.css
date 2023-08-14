@@ -86,11 +86,11 @@ li.MD {
 
 .image-mick1 {
     float: right;
-    position: relative;
-    margin-right: 120px;
-    width: max-content;
-    height: max-content;
-    scale: 250%;
+    width: 400px;
+    height: auto;
+    margin:20px auto;
+    display: block;
+    max-width: 100%;
 }
 
 .tt-h2 {
@@ -137,7 +137,8 @@ li.MD {
 .track-text {
     color: black;
     text-align: left;
-    padding-left: 20%;
+    padding-left: 20px;
+    display: inline-block;
 
 
 }
@@ -150,6 +151,7 @@ li.MD {
 img.track {
     float: left;
     scale: 300%;
+    
 }
 
 
@@ -161,8 +163,14 @@ img {
     max-width: 200px;
     max-height: 300px;
     width: 130px;
-    height: 70px;
+    height: 80px;
+    margin-right: 20px;
+    padding-bottom: 90px;
+    
+    
+
 }
+
 
 img.pic {
     float: left;

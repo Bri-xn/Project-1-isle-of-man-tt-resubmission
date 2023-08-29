@@ -252,10 +252,9 @@ p.dd {
     font-size: 32px;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
-    background-color: black;
-    color: aliceblue;
-
 }
+
+
 
 body {
     margin: 20px;
@@ -265,7 +264,7 @@ body {
 h1 {
     color: green;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 90px;
     text-decoration: underline;
 
 
@@ -288,6 +287,8 @@ h2.MD {
 }
 
 h2.other {
+    background-color: black;
+    color: aliceblue;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -307,6 +308,7 @@ form.section {
 
 
 label.name {
+    
     font-weight: bold;
     padding-right: 10px;
 }

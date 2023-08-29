@@ -329,6 +329,27 @@ label.name {
     scale: 150%;
 }
 
+
+
+
+.thank-you-page {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .thank-you-page h1 {
+    color:black
+  }
+
+  thank-you-page p {
+    font-size: 20px;
+  }
+  
+
 @media screen and (max-width:700px) {
 
     .logo {

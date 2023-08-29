@@ -7,7 +7,9 @@ h2 {
     font-size: xxx-large;
 }
 
-
+body, main, section {
+    overflow: auto;
+}
 .header-back {
     position: absolute;
     top: 0;
@@ -150,7 +152,7 @@ li.MD {
 
 img.track {
     float: left;
-    scale: 300%;
+   
     
 }
 
@@ -328,7 +330,7 @@ label.name {
 .footersocial {
 
     position: fixed;
-    scale: 150%;
+    
 }
 
 
@@ -350,3 +352,104 @@ label.name {
   thank-you-page p {
     font-size: 20px;
   }
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .logo-cont {
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+        float: none;
+    }
+
+    .box-cont {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .box-cont a {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-mick1, img.track {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .tt-list li, .track-text li {
+        font-size: 16px;
+    }
+
+    footer, .footernl {
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 0;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    p.md, p.dd {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    ul.john {
+        float: none;
+        padding: 20px;
+    }
+    
+ 
+}
+/* Media Queries for Mobile less than 529px */
+@media only screen and (max-width: 529px){
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .box-cont a {
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .tt-list li, .track-text li {
+        font-size: 14px;
+    }
+
+    p.md, p.dd {
+        font-size: 14px;
+    }
+
+    .track-h1, .tt-h2 {
+        font-size: 24px;
+    }
+
+    ul.john {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}    
